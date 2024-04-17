@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+</head>
+<body>
+    
+    <button onclick="document.getElementById('myImage').src='./images/turnOn.jpeg'">Turn on the light</button>
+    
+    <img id="myImage" src="./images/turnOff.jpeg">
+    
+    <button onclick="document.getElementById('myImage').src='./images/turnOff.jpeg'">Turn off the light</button>
+    
+    <h1 id="value">0</h1>
+    <button id="increment">increment</button>
+
+    <div class="container">
+        <input type="text" placeholder="Who are you ?">
+        <button type="submit" onclick="check()">submit</button>
+    </div>
+
+    <img src="" alt="" class="img">
+
+    <h1 class="text"></h1>
+
+    <button onclick="displayDate()" class="btn">Display Date</button>
+    <!-- <button  class="btn">Display Date</button> -->
+    <h1 class="value"></h1>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

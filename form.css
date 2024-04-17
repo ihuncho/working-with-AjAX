@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:whitesmoke;
+
+}
+
+.container {
+    width: 90vw;
+    max-width: 600px;
+    padding: 1.5em;
+    background-color: white;
+    margin: 1em auto;
+    border-radius: 0.5em;
+}
+
+h4{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.input-section{
+    margin: 0.5em 0;
+}
+
+label, .error-message{
+    display: block;
+    font-size: 1em;
+}
+
+label{
+    margin-bottom: 0.5em;
+    font-weight: 600;
+
+}
+
+.error-message{
+    margin-top: 0.2em;
+}
+
+input, button{
+    outline: none;
+    width: 100%;
+    padding: 1em 0.5em;
+    display: block;
+    border-radius: 0.3em;
+}
+
+input{
+    padding: 1em 0.5em;
+    border: 1px solid #ccc;
+}
+
+button{
+    font-size: 1em;
+    background-color:blue;
+    border: none;
+    color: #fff;
+    padding: 0.8em 0;
+    margin-top: 2em;
+}
+
+.required-color{
+    color: red;
+}
+
+.error{
+    border-color: red;
+}
+
+.valid{
+    border-color: green;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media only screen and (max-width:450px) {
+    .container{
+        font-size: 14px;
+    }
+}
